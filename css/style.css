@@ -1,0 +1,192 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+}
+
+html {
+ 	background-color: #F3F3F3;
+ 	width: 1280px;
+ 	max-height: 1581px;
+ 	margin: auto;
+}
+.container {
+ 	max-width: 940px;
+ 	margin: auto;
+}
+
+/*header*/
+header {
+	background-color: #4A4A4A;
+	height: 100px;
+}
+.main-area{
+	float: left;
+	margin-top: 25px;
+	margin-left: 112px;
+}
+.main-area img{
+	height: 50px;
+	width: 205px;
+}
+.sidebar{
+	float: right;
+	display: inline-block;
+	height: 75px;
+	width: 714px;
+	margin-top: 25px;
+	margin-right: 112px;
+}
+/*nav*/
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.site-nav li{
+	list-style: none;
+	float: left;
+}
+.site-nav a{
+	font-family: "Arial Black", fantasy;
+	font-size: 24px;
+	color: #F4F7F7;
+	text-decoration: none;
+	display: block;
+	padding-right:30px;
+	line-height: 25px;
+}
+#search input[type="text"] {
+  background: url(search-dark.png) no-repeat 10px 6px #F4F7F7;
+  border: 0 none;
+  font: bold 16px Arial,Helvetica,Sans-serif;
+  color: #34495E;
+  width: 150px;
+  height: 25px;
+  float: right;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+
+.clear{
+ 	clear:both;
+}
+
+/*article*/
+article .mainimg {
+	margin: 50px 46px;
+}
+
+article nav {
+	margin-right: 112px;
+	margin-left: 112px;
+	margin-bottom: 50px;
+	height: 80px;
+	background-color: #FAFAFA;
+	border-radius: 20px;
+}
+article nav img {
+	margin-right: 159px;
+}
+article nav .lastimg {
+	margin-right: 0px;
+}
+.borderhorizontal{
+	border:1px solid #34495E;
+	margin-left:46px;
+	margin-right:46px;
+}
+.second{
+	margin: 50px 46px;
+	background-color: #FAFAFA;
+	height: 598px;
+	border-radius: 75px;
+}
+.secondarea{
+	padding: 66px 66px;
+	height: 466px;
+}
+.second .secondmain-area{
+	float: left;
+	width: 666px;
+	margin-right: 34px;
+}
+.second .secondmain-area a{
+	float: left;
+	display: inline-block;
+	height: 200px;
+}
+.second .secondmain-area img{
+	border-radius: 50px;
+}
+.second .secondmain-area .leftimg{
+	display: inline-block;
+	margin-right: 66px;
+}
+.second .secondmain-area .topimg{
+	display: inline-block;
+	margin-bottom: 66px;
+}
+.second .secondsidebar{
+	float: right;
+}
+.second .secondsidebar .youtubemotogp{	
+	height: 164px;
+}
+.second .secondsidebar .promotion h3{	
+	margin-top : 16px;
+	margin-bottom: 16px;
+	font-family: "Arial Black", sans-serif;
+	font-size: 24px;
+	height: 24px;
+	line-height: 18px;
+
+}
+.second .secondsidebar .promotion .product1{
+	margin-bottom: 45px;
+	height: 100px;
+}
+.second .secondsidebar .promotion .product2{
+	height: 100px;
+}	
+.second .secondsidebar .promotion img{	
+	margin-right: 36px;
+	float: left;
+}
+.second .secondsidebar .promotion p{	
+		
+}
+/*footer*/
+footer {
+	background-color: #4A4A4A;
+	height: 100px; 
+}
+footer p{
+	float: left;
+	font-family: "Arial";
+	color: #F3F3F3;
+	font-size: 24px;
+	height: 24px;
+	margin: 38px 148px;
+	margin-right: 0px;
+}
+footer .icon{
+	float: right;
+	margin: 25px 133px;
+	margin-left: 0px;
+}
+footer .icon img{
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-right: 15px;
+
+}

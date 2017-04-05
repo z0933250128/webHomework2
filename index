@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MotoMarket by 103590030</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <header>
+  	<div class="content-area">
+        <div class="main-area">
+          <img src="img/MotoMarketLogo.png">
+        </div>
+        <div class="sidebar">
+          	<nav class="site-nav">
+		  		<ul>
+			        <li><a href="#">about us</a></li>
+			        <li><a href="#">product</a></li>
+			        <li><a href="#">activity</a></li>
+			        <li><a href="#">customer</a></li>
+		     	</ul>
+		  	</nav>
+		  	<form method="get" action="/search" id="search">
+		  		<input type="text" name="q" size="40" placeholder="Search...">
+		  	</form>
+        </div>
+        <div class="clear"></div>
+     </div>
+  </header>
+  <article>
+  	<div class="mainimg">
+  		<img src="img/MainImage.jpg">
+  	</div>
+  	<nav>
+  		<a href="#"><img src="img/icon-5.png"></a>
+  		<a href="#"><img src="img/icon-4.png"></a>
+  		<a href="#"><img src="img/icon-1.png"></a>
+  		<a href="#"><img src="img/icon-2.png"></a>
+  		<a href="#"><img src="img/icon-3.png" class="lastimg"></a>
+  	</nav>
+  	<div class="borderhorizontal"></div>
+  	<div class="second">
+	  	<div class="secondarea">
+	  		<div class="content-area">
+		        <div class="secondmain-area">
+		          	<a href="#" class="leftimg topimg"><img src="img/VR46.jpg"></a>
+			  		<a href="#" class="topimg"><img src="img/MM93.jpg"></a>
+			  		<a href="#" class="leftimg"><img src="img/JL99.jpg"></a>
+			  		<a href="#"><img src="img/DP26.jpg"></a>
+		        </div>
+		        <div class="secondsidebar">
+		          	<div class="youtubemotogp">
+		          		<iframe width="342" height="164" src="https://www.youtube.com/embed/AzIT0_LCcbo" frameborder="0" allowfullscreen></iframe>
+		          	</div>
+		          	<div class="promotion">
+		          		<h3>福利品</h3>
+		          		<div class="product1">
+			          		<img src="img/agv.jpg">
+			          		<p>AGV K-3 SV MotoGP Rossi 烏龜<br>售價:9700</p>
+		          		</div>
+		          		<div class="clear"></div>
+		          		<div class="product2">
+		          			<img src="img/shoei.jpg">
+		          			<p>Shoei X-14 Marquez 4 Helmet<br>售價:2200</p>
+		          		</div>
+		          	</div>
+		        </div>
+		        <div class="clear"></div>
+	     	</div>
+	  	</div>
+  	</div>
+  </article>
+  <footer>
+  	<p>Copyrights 2017 ntut cise / Design by haomin</p>
+  	<div class="icon">
+  		<a href=""><img src="img/facebook.png"></a>
+	  	<a href=""><img src="img/instagram.png"></a>
+	  	<a href=""><img src="img/twitter.png"></a>
+	  	<a href=""><img src="img/youtube.png"></a>
+  	</div>
+  </footer>
+</body>
+</html>
